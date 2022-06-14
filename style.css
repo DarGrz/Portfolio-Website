@@ -94,3 +94,41 @@ div.my-info {
     font-size: 1.5rem;
     text-align: left;
 }
+
+#skills {
+    background: black;
+    color: white;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.skill-information {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill-information progress { 
+    color: white;
+    border: 1px solid white;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 0;
+}
+
+.skill-information progress::-webkit-progress-bar {
+    background-color: black;
+}
